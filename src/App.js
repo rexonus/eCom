@@ -2,9 +2,7 @@ import React from 'react';
 import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import HomePage from './pages/homepage/homepage.component';
-
-
-const Hats = () => (<div>Hello Hats!</div>);
+import ShopPage from './pages/shop/shop.component'
 
 class App extends React.Component{
   
@@ -13,7 +11,7 @@ class App extends React.Component{
       <div>
         <Switch>
           <Route exact path="/" component={HomePage}/>
-          <Route path="/hats" component={Hats}/>
+          <Route path="/shop" component={ShopPage}/>
         </Switch>
       </div>);
   }
