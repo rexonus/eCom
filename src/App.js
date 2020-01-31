@@ -6,20 +6,7 @@ import HomePage from './pages/homepage/homepage.component';
 
 const Hats = () => (<div>Hello Hats!</div>);
 
-// function App(){
-//   return (
-//     <div>
-//       <Switch>
-//         <Router exact path="/" component={HomePage}/>
-//         <Router path="/hats" component={Hats}/>
-//       </Switch>
-//     </div>);
-// }
-
 class App extends React.Component{
-  // constructor(){
-  //   super();
-  // }
   
   render(){
     return (
